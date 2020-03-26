@@ -1,13 +1,11 @@
 import React from 'react';
 import Header from './components/Header';
 import './global.css';
+import Routes from './routes';
 
 function App() {
   return (
-      
-      <Header title={"Semana omnistack"}>
-        Alguma mensagem
-      </Header>
+      <Routes />
   );
 }
 
